@@ -12,12 +12,13 @@ Meta.DockerBaseReadOnly=False
 
 App.RootDir=./bannerlord-coop/
 App.BaseDirectory=./bannerlord-coop/DedicatedServer/
-App.ExecutableLinux=/usr/local/bin/bannerlordcoop-start
+App.ExecutableLinux=/usr/local/bin/bannerlordcoop-server
 App.WorkingDir=.
 App.CommandLineArgs={{$FormattedArgs}}
 App.CommandLineParameterFormat=-{0} {1}
 App.CommandLineParameterDelimiter= 
-App.ExitMethod=OS_CLOSE
+App.ExitMethod=String
+App.ExitString=STOP
 App.ExitTimeout=30
 App.HasWriteableConsole=True
 App.HasReadableConsole=True
