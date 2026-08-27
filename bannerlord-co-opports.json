@@ -1,16 +1,16 @@
 [
-    {
-        "Protocol": "UDP",
-        "Port": 4000,
-        "Ref": "MainGamePort",
-        "Name": "Main Game Port",
-        "Description": "Port used for main game traffic"
-    },
-    {
-        "Protocol": "UDP",
-        "Port": 4001,
-        "Ref": "Second",
-        "Name": "Second",
-        "Description": ""
-    }
+  {
+    "Protocol": "UDP",
+    "Port": 4200,
+    "Ref": "GamePort",
+    "Name": "Game Port",
+    "Required": true
+  },
+  {
+    "Protocol": "UDP",
+    "Port": 4201,
+    "Ref": "SecondaryPort",
+    "Name": "Secondary Port",
+    "Required": true
+  }
 ]
