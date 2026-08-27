@@ -72,5 +72,9 @@ Console.ActivateLogRegex=
 Console.UserActions={}
 Limits.SleepMode=False
 Meta.AppConfigId=75193f92-97c9-47fb-8547-06d0c82d0132
+Meta.DisplayImageSource=url:https://images.steamusercontent.com/ugc/9702955137534937620/6DF9F80A8A10EF6B9B7EF3DD3E07B98FE3DD2D6D/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true
+Meta.ConfigManifest=bannerlord-co-opconfig.json
+Meta.MetaConfigManifest=bannerlord-co-opmetaconfig.json
+Meta.MinAMPVersion=2.8.0.4
 
 App.EnvironmentVariables={"HOME":"{{$FullRootDir}}.home","XDG_CONFIG_HOME":"{{$FullRootDir}}.home/.config","XDG_DATA_HOME":"{{$FullRootDir}}.home/.local/share"}
