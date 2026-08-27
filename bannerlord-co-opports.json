@@ -1,0 +1,16 @@
+[
+    {
+        "Protocol": "UDP",
+        "Port": 4000,
+        "Ref": "MainGamePort",
+        "Name": "Main Game Port",
+        "Description": "Port used for main game traffic"
+    },
+    {
+        "Protocol": "UDP",
+        "Port": 4001,
+        "Ref": "Second",
+        "Name": "Second",
+        "Description": ""
+    }
+]
